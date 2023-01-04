@@ -22,7 +22,8 @@ def GetRandom():
         result[i] = result[index]
         result[index] = temp
 
-    print(f'Результат перемешивания: {result}') 
+    print(f'Результат перемешивания: {result}')
+    return result 
 
 GetRandom()
    
